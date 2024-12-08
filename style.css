@@ -1,0 +1,61 @@
+body {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content {
+    width: 700px;
+    height: 600px;
+    border: 1px solid blue;
+    background: blue;
+}
+.player , .randomDiv{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 5px;
+}
+.player {
+    background: green;
+}
+.randomDiv {
+    background: yellow;
+}
+button {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    background: blue;
+    color: white;
+    position: absolute;
+    top: 45%;
+    right: 35%;
+    border-style: none;
+    border-radius: 10px;
+}
+button:hover {
+    transition: .5s;
+    background: black;
+    color: ;
+}
+.resultPart {
+    position: absolute;
+    right: 20%;
+    top: 10%;
+}
+p {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span {
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+}
+.copyRight {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    color: blue;
+    font-weight: bold;
+    
+}
